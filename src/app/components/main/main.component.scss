@@ -1,0 +1,35 @@
+.padreDiv {
+    margin: 8rem 3rem 4rem 3rem;
+    border-radius: 15px;
+    background-color: rgb(212, 133, 68);
+    padding: 2rem;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputDiv{
+    margin: 2rem 1rem 2rem 1rem;
+    border-radius: 15px;
+    background-color: rgb(163, 42, 42);
+    padding: 2rem;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: rgb(68, 0, 0);
+        span{
+            color: white;
+        }
+    }
+}

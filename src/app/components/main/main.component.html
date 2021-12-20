@@ -1,0 +1,14 @@
+<div class="padreDiv">
+    <h1>Componente padre (En este caso main.component)</h1>
+    <input #fatherInput (keyup)="keyUp(fatherInput.value)"/>
+
+    <div class="inputDiv">
+        <app-son-of-main
+        [inputText]="inputText"
+        (emitMessage)="setMessage($event)">
+        </app-son-of-main>
+
+        <h1>Mensaje que proviene del hijo:</h1>
+        <p>>>>><span><strong>{{sonMessage}}</strong></span><<<<</p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.standardDiv {
+  margin: 8rem 3rem 4rem 3rem;
+  border-radius: 15px;
+  background-color: rgb(212, 133, 68);
+  padding: 2rem;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  app-button {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  } 
+  
+}

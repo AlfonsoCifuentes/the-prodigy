@@ -1,0 +1,13 @@
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 82, 54);
+    box-shadow:5px 5px 5px black;
+    div{
+        max-width: 100px;
+    }
+}

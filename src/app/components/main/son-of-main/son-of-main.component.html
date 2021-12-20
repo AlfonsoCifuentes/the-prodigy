@@ -1,0 +1,11 @@
+<div class="sonDiv">
+    <h1>Componente hijo (En este caso son-of-main.component)</h1>
+    <h3>El hijo recibe en la siguiente línea el mensaje del padre:</h3>
+    <p>{{inputText}}</p>
+</div>
+
+<div class="sendMessageDiv">
+    <h1>Envía un mensaje al componente padre:</h1>
+    <input [(ngModel)]="message" />
+    <button (click)="sendMessage()">Enviar al padre</button>
+</div>

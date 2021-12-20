@@ -1,0 +1,5 @@
+<button (click)="click()">
+    <ng-container *ngIf="text">{{text}}</ng-container>
+    <ng-container *ngIf="!text">{{literal}}</ng-container>
+    
+</button>
